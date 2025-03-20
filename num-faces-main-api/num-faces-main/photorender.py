@@ -7,7 +7,7 @@ CORS(app)  # Enable CORS for all routes
 
 def establish_connection():
     try:
-        uri = "postgres://avnadmin:AVNS_6PI6a3q70NJjYxOdhE5@relational-v2-hackedc2-v1.k.aivencloud.com:24220/defaultdb?sslmode=require"
+        uri =""
         conn = psycopg2.connect(uri)
         return conn
     except Exception as e:

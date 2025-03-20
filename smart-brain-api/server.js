@@ -13,7 +13,7 @@ const profile = require('./controllers/profile');
 const image = require('./controllers/image');
 const { HttpRequest } = require('aws-sdk');
 
-// uri = "postgres://avnadmin:AVNS_He2AeIl9fa-_M4S5G1X@image-postgres-hackedc2-v1.i.aivencloud.com:24220/defaultdb?sslmode=require"
+// uri = """
 // conn = psycopg2.connect(uri)
 // print(conn)
 // cur = conn.cursor()
